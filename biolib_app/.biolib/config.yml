@@ -5,7 +5,7 @@ modules:
         image: 'local-docker://app-colabfold:latest'
         command: ""
         input_files:
-            - COPY / /colabfold/input
+            - COPY / /colabfold/input/
         output_files:
             - COPY /output/ /
             - COPY /output.md /
